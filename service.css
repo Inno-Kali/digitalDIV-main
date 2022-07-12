@@ -1,0 +1,97 @@
+body{
+    font-family: asap, sans-serif;
+}
+
+body::before{
+    display: block;
+    content: " ";
+    background-color: rgb(255, 255, 255);
+    
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: asap, sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+
+.btn {
+    font-family: asap;
+    font-weight: bolder;
+}
+
+.bg {
+        background: #4f00e0;
+        opacity: 90%;
+}
+
+.navbar{
+    font-family: asap, sans-serif;
+}
+
+.heading{
+    padding-top: 120px;
+    margin-bottom: 85px;
+
+}
+.heading > p{
+    letter-spacing: 0.5pt;
+    font-size: 12pt;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+.heading > h1{
+    letter-spacing: 1.2pt;
+    font-size: 50pt;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.heading > h6{
+    letter-spacing: 2.5pt;
+    font-size: 14pt;
+    font-weight: light;
+    padding-top: 20px;
+}
+
+.bg-serv{
+    margin-top: 20px;
+    background-image: url(assert/img/Group\ 622.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hd-img{
+    text-align: left;
+}
+
+
+.ul li {
+    font-family: asap, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+
+.dwn{
+    padding-top: 100px;
+}
+
+/*footer*/
+
+.tcs > ul >li a{
+    text-decoration: none;
+    color: orangered;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card-link > ul > li > a{
+    font-family: asap, sans-serif;
+}
+

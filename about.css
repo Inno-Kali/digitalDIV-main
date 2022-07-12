@@ -1,0 +1,140 @@
+html, 
+body{
+    font-family: asap, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before{
+    display: block;
+    content: " ";
+    background-color: rgb(255, 255, 255);  
+}
+
+
+@media only screen and(min-width: 768px){
+    .fb{
+        width: 50%;
+        color: rgb(15, 1, 75);
+    }
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: asap, sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+
+.btn {
+    font-family: asap, sans-serif;
+    font-weight: 600;
+}
+
+
+.bg {
+        background: #4f00e0;
+        opacity: 90%;
+}
+
+.navbar{
+    font-family: asap, sans-serif;
+}
+
+.hd-about{
+    padding-top: 250px;
+    margin-bottom: 350px;
+    right: -550px;
+    position: relative;
+}
+
+.hd-about > p{
+    letter-spacing: 0.5pt;
+    font-size: 14pt;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+.hd-about > h1{
+    letter-spacing: 2pt;
+    font-size: 60pt;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.hd-about > h6{
+    letter-spacing: 2.5pt;
+    font-size: 14pt;
+    font-weight: light;
+    padding-top: 20px;
+}
+
+.bg-abt{
+    padding: 0;
+    margin: 0;
+    background-image: url(assert/img/web_LogosArtboard_4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#team{
+    padding: 0;
+    margin: 0;
+    background-image: url(assert/img/Group_604_n.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+
+.feedbacks{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+    background-image: url(assert/img/path.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fdbk{
+    position: relative;
+    bottom: -100px;
+
+    
+}
+
+
+@media all and(max-device-width: 600px){
+    .col-md > .fb > .fdbk{
+        color: rgb(255, 254, 254);
+        background-color: #4f00e0;
+        width: 50%;
+    }
+}
+
+
+/*footer*/
+
+.tcs > ul >li a{
+    text-decoration: none;
+    color: orangered;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card-link > ul > li > a{
+    font-family: asap, sans-serif;
+}
+
+.send-btn{
+    float: right;
+    width: auto;
+    padding: 10px 10px;
+    margin-right: 3%;
+}

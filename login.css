@@ -1,0 +1,68 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url(assert/img/login_BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: asap,sans-serif;
+    
+}
+
+
+.gb-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgk{
+    border-width: 0ch;
+
+}
+
+
+form{
+    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.login-form{
+    width: 400px;
+    height: 450px;
+    margin: 30px;
+
+}
+
+
+.eml, .passwd{
+    margin-bottom: 25px;
+    background: rgb(228, 227, 227);
+    border-radius: 50px;
+    border-width: 0ch;
+
+}
+
+.card-title{
+    font-size: 30pt;
+    font-weight: bolder;
+    color: rgb(22, 2, 97);
+}
+
+.btn{
+    border-width: 0ch;
+}
+.signup{
+    padding-top: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.mid{
+    margin: 100px;
+}

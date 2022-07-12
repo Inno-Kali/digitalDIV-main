@@ -1,0 +1,112 @@
+
+
+body::before{
+    display: block;
+    content: " ";
+    
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: asap, sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+
+.btn {
+    font-family: asap;
+    font-weight: bolder;
+}
+
+.bg {
+        background: #4f00e0;
+        opacity: 95%;
+}
+
+.navbar{
+    font-family: asap, sans-serif;
+}
+
+
+.bakg{
+    background-image: url(assert/img/web_BGDArtboard\ 1.svg);
+    background-repeat: no-repeat;
+    
+}
+
+.mkt-team{
+    background-image: url(assert/img/Path_352.png);
+    background-repeat: no-repeat;
+    box-shadow: 100px;
+}
+
+.ul li {
+    font-family: asap, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+.bg-img{
+    background-image: url(assert/img/Path_352.png);
+    background-repeat: no-repeat;
+}
+
+.input-group{
+    font-family: asap, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* .fa{
+    padding: 20px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: white;
+    border-radius: 50%;
+} */
+
+.tcs > ul >li a{
+    text-decoration: none;
+    color: orangered;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card-link > ul > li > a{
+    font-family: asap, sans-serif;
+}
+
+
+/*Login Page */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.lgin{
+    background: url(assert/img/login_BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+@media (min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
+
+

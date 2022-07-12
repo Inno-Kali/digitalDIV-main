@@ -1,0 +1,122 @@
+
+html, 
+body{
+    font-family: asap, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+
+body::before{
+    display: block;
+    content: " ";
+    background-color: rgb(255, 255, 255);  
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: asap, sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+
+.btn {
+    font-family: asap;
+    font-weight: 600;
+}
+
+
+.bg {
+        background: #4f00e0;
+        opacity: 90%;
+}
+
+.navbar{
+    font-family: asap, sans-serif;
+}
+
+.heading{
+    padding-top: 300px;
+    margin-bottom: 350px;
+}
+.heading > p{
+    letter-spacing: 0.5pt;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.heading > h1{
+    letter-spacing: 2pt;
+    font-size: 50pt;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.heading > h6{
+    letter-spacing: 2.5pt;
+    font-size: 14pt;
+    font-weight: light;
+    padding-top: 20px;
+}
+
+.bg-cont{
+    padding: 0;
+    margin: 0;
+    background-image: url(assert/img/web_LogosArtboard_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.mssge{
+    padding-top: 100px;
+    background-image: url(assert/img/Group_604.png);
+    background-repeat: no-repeat;
+}
+.mssge-card{
+    border-width: 0; 
+    border-radius: 0px; 
+    margin-bottom: 100px;
+}
+
+.left-side{
+    background-image: url(assert/img/Rectangle\ 193.png);
+    background-repeat: no-repeat;
+}
+
+
+/*footer*/
+
+.tcs > ul >li a{
+    text-decoration: none;
+    color: orangered;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card-link > ul > li > a{
+    font-family: asap, sans-serif;
+}
+
+.send-btn{
+    float: right;
+    width: auto;
+    padding: 10px 10px;
+    margin-right: 3%;
+}
+
+/* To format the placeholder text color */
+/* placeholder {
+    color: #4F31CE;
+} */
+
+.dwn-bg-img{
+    margin-left: auto;
+    opacity: 85%;
+    position: relative; 
+    top: -250px;
+}
